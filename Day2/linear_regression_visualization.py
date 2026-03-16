@@ -14,7 +14,6 @@ y = np.array([35, 40, 50, 60, 70])
 model = LinearRegression()
 model.fit(X, y)
 
-# Step 3: Make prediction
 predicted_marks = model.predict([[6]])
 print("Predicted marks for 6 hours of study:", predicted_marks[0])
 
